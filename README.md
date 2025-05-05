@@ -60,12 +60,20 @@ Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TX
 Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/4f9f5fa8-c88b-413e-ae79-fd1e0bebb90e)
+
+![image](https://github.com/user-attachments/assets/f1d69ce3-8c48-4aaa-ba01-5f353c8cc3ac)
 
 
+![image](https://github.com/user-attachments/assets/da9f1d95-8140-45ee-9a63-9e5aceaf6e4e)
 
+![image](https://github.com/user-attachments/assets/7ca9e60f-9498-4fa6-b7fc-87608e2996b2)
 
+![image](https://github.com/user-attachments/assets/1c8b8ad9-72dc-451f-9164-841131c7d371)
 
+![image](https://github.com/user-attachments/assets/48286c59-8b71-4a70-a663-17d73554f292)
 
+![image](https://github.com/user-attachments/assets/30bd6bc8-5e15-46ba-8250-e7aa288b81bd)
 
 ##dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
@@ -80,7 +88,9 @@ Calculate C class domain network ranges and perform whois queries on them (threa
 Perform reverse lookups on netranges (C class or/and whois netranges) (threaded).
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
+![image](https://github.com/user-attachments/assets/ef2f0650-3ae2-4a38-aabb-acbc48016f9a)
 
+![image](https://github.com/user-attachments/assets/fba5bd1d-d855-46fb-8841-872e15c153e7)
 
 ##smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
@@ -90,6 +100,8 @@ In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 
 select any username in the first column of the above file and check the same
 
+![image](https://github.com/user-attachments/assets/9fb05bb0-fbcb-4ae4-9c8e-be1e52191452)
+
 
 #Telnet for smtp enumeration
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
@@ -97,7 +109,9 @@ telnet <host address> 25 to connect
 and issue appropriate commands
   
  ##Output
-  
+ 
+  ![image](https://github.com/user-attachments/assets/f30a68ff-081a-44d7-8ed7-dcfd3f9b10d0)
+
   
 
 ## nmap –script smtp-enum-users.nse <hostname>
@@ -106,6 +120,8 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 
 ## OUTPUT:
+
+![image](https://github.com/user-attachments/assets/97d79817-b6ac-49f5-974a-0670b70dbaa9)
 
 
 ## RESULT:
